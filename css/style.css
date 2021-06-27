@@ -1,0 +1,73 @@
+body{
+    background-color: #f5f5f5;
+    background: url('../utility/bubble.png');
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav a{
+    padding: 10px;
+    margin-right: 5px;
+    color: black;
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: white;
+}
+.main-section{
+    margin-top:20px;
+}
+.add-sens{
+    position: absolute;
+    top:0px;
+    right:50px;
+}
+.img-section{
+    overflow: hidden;
+}
+.img-section img{
+    overflow: hidden;
+    width:100%;
+}
+.img-section img:hover{
+    opacity:0.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sectin-title h1{
+    font-weight:700;
+    font-size:23px;
+    color:#285A63;
+}
+.section-detail p{
+    color:#756d6d;
+    letter-spacing: 1px;
+}
+.fa-star,.fa-star-half-empty{
+    color:#FEC00B;
+}
+.fa-star-half-empty{
+    margin-right: 10px;
+}
+.fa-star-o{
+    color: #FEC00B;
+}
+
+.navigasi a{
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+    transition: 0.08s;
+}
+.navigasi a:hover{
+    border-top: 5px solid white;
+}
+.jumbotron{
+    background-color: rgb(49, 49, 49);
+}
+
+.navbar-nav a:hover{
+    border-top: 2px solid white; 
+}
